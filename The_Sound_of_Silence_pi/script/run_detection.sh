@@ -16,7 +16,7 @@ trap clean_up SIGHUP SIGINT SIGTERM
 # Fonction qui réalise l'enregistrement audio (son de 5 secondes sur le device 1,0 et enregistré au format .WAV
 recording(){
 	echo "Début de l'enregistrement..."
-	arecord -D hw:1,0 -d 5 -f cd /home/pi/The_Sound_of_Silence_pi/recording/test.wav -c 1
+	arecord -D plughw:1,0 -d 5 -f cd /home/pi/The_Sound_of_Silence_pi/recording/record.wav -c 1
 }
 
 # Fonction qui réalise la prédiction en lançant le script python et affiche les résultats sur le terminal

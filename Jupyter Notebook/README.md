@@ -1,0 +1,2 @@
+# The-Sound-of-Silence
+Les Jupyter Notebook suivant permettent de réaliser l’ensemble du projet. Chargement données permet de télécharger la base de données et de créer le fichier donnée.npy, pour ne pas avoir à le refaire à chaque fois. Augmentation permet de faire la data augmentation. Le principe est de mélanger un son d’un bruit naturel à un son à classifier pour tous les éléments d’une classe. Enfin Classification_Audio_Dataset permet de faire la classification des sons.
